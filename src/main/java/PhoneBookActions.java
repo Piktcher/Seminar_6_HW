@@ -23,10 +23,10 @@ public class PhoneBookActions {
                 System.out.println("Такой человек уже добавлен, введите дополнительную информацию для контакта:");
                 Scanner extra = new Scanner(System.in);
                 String info = extra.next();
-                name += " (" + info + ")";
+                name += "(" + info + ")";
             }
             else {
-                phonebook.add(name + " " + phone);
+                phonebook.add(name + ": " + phone);
                 System.out.println("Новый контакт успешно добавлен!\n");
                 flag = true;
             }

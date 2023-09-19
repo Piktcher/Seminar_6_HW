@@ -1,12 +1,8 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
-
-import static java.lang.System.exit;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -48,7 +44,7 @@ public class Main {
             }
             if (action.equals("3")) PhoneBookActions.terminate(contacts);
 
-            else System.out.println("Выберите действие из спискаn\n");
+            else System.out.println("Выберите действие из списка\n");
         }
 
     }
